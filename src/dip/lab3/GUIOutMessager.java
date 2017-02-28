@@ -33,7 +33,9 @@ public class GUIOutMessager implements OutputMessager {
     }
 
     public final void setPromptMsg(String promptMsg) {
-        //validate
+        if (null == promptMsg || promptMsg.isEmpty()){
+            throw new IllegalArgumentException("Invalid GUI Message.");
+        }
         this.promptMsg = promptMsg;
     }
 

@@ -54,7 +54,7 @@ public class ConsoleOutMessager implements OutputMessager {
     }
 
     @Override
-    public void createOutputMessage(String msg) {
+    public final void createOutputMessage(String msg) {
         this.setOutputMsg(msg);
     }
     

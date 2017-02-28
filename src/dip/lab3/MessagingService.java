@@ -23,6 +23,9 @@ public class MessagingService {
     }
 
     public final void setInput(InputMessager input) {
+        if (null == input){
+            throw new IllegalArgumentException("Did not provide an Input Messager.");
+        }
         this.input = input;
     }
 
@@ -31,6 +34,9 @@ public class MessagingService {
     }
 
     public final void setOutput(OutputMessager output) {
+        if (null == input){
+            throw new IllegalArgumentException("Did not provide an Output Messager.");
+        }
         this.output = output;
     }
     
