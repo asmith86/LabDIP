@@ -13,7 +13,7 @@ public class GUIOutMessager implements OutputMessager {
     private String outputMsg;
     private String promptMsg;
     
-    GUIOutMessager(String promptMsg){
+    public GUIOutMessager(String promptMsg){
         this.setPromptMsg(promptMsg);
     }
 

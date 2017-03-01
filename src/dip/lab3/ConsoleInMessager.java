@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class ConsoleInMessager implements InputMessager{
     private final Scanner key;
     
-    ConsoleInMessager(){
+   public ConsoleInMessager(){
         this.key = new Scanner(System.in);
     }
 

@@ -13,7 +13,7 @@ public class ConsoleOutMessager implements OutputMessager {
     private String outputMsg;
     private String promptMsg;
     
-    ConsoleOutMessager(String promptMsg){
+   public ConsoleOutMessager(String promptMsg){
         
         this.setPromptMsg(promptMsg);
     }

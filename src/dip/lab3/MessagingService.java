@@ -13,7 +13,7 @@ public class MessagingService {
     private InputMessager input;
     private OutputMessager output;
     
-    MessagingService(InputMessager input, OutputMessager output){
+   public MessagingService(InputMessager input, OutputMessager output){
         this.setInput(input);
         this.setOutput(output);
     }
