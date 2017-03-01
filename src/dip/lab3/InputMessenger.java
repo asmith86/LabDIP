@@ -4,17 +4,11 @@
  * and open the template in the editor.
  */
 package dip.lab3;
-import javax.swing.JOptionPane;
+
 /**
  *
  * @author Alex
  */
-public class GUIInMessager implements InputMessager {
-
-    @Override
-    public final String inputMessage() {
-     
-      return JOptionPane.showInputDialog(null, "Enter Response: ");
-    }
-    
+public interface InputMessenger {
+    public String inputMessage();
 }

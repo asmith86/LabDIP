@@ -17,8 +17,8 @@ public class Startup {
         String promptMsg = "Please enter a message for output.";
 
         MessagingService messager = new MessagingService(
-                new GUIInMessager(),
-                new ConsoleOutMessager(promptMsg)
+                new ConsoleInMessager(),
+                new GUIOutMessenger(promptMsg)
         );
         
         messager.promptForInput();

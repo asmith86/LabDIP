@@ -9,6 +9,8 @@ package dip.lab3;
  *
  * @author Alex
  */
-public interface InputMessager {
-    public String inputMessage();
+public interface OutputMessenger {
+    public void promptForInput();
+    public void createOutputMessage(String msg);
+    public void outputMessage();
 }

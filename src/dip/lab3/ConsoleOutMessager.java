@@ -9,7 +9,7 @@ package dip.lab3;
  *
  * @author Alex
  */
-public class ConsoleOutMessager implements OutputMessager {
+public class ConsoleOutMessager implements OutputMessenger {
     private String outputMsg;
     private String promptMsg;
     

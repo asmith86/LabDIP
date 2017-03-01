@@ -9,11 +9,11 @@ import javax.swing.JOptionPane;
  *
  * @author Alex
  */
-public class GUIOutMessager implements OutputMessager {
+public class GUIOutMessenger implements OutputMessenger {
     private String outputMsg;
     private String promptMsg;
     
-    public GUIOutMessager(String promptMsg){
+    public GUIOutMessenger(String promptMsg){
         this.setPromptMsg(promptMsg);
     }
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author Alex
  */
-public class ConsoleInMessager implements InputMessager{
+public class ConsoleInMessager implements InputMessenger{
     private final Scanner key;
     
    public ConsoleInMessager(){

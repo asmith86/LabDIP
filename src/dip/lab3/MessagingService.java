@@ -10,30 +10,30 @@ package dip.lab3;
  * @author Alex
  */
 public class MessagingService {
-    private InputMessager input;
-    private OutputMessager output;
+    private InputMessenger input;
+    private OutputMessenger output;
     
-   public MessagingService(InputMessager input, OutputMessager output){
+   public MessagingService(InputMessenger input, OutputMessenger output){
         this.setInput(input);
         this.setOutput(output);
     }
 
-    public final InputMessager getInput() {
+    public final InputMessenger getInput() {
         return input;
     }
 
-    public final void setInput(InputMessager input) {
+    public final void setInput(InputMessenger input) {
         if (null == input){
             throw new IllegalArgumentException("Did not provide an Input Messager.");
         }
         this.input = input;
     }
 
-    public final OutputMessager getOutput() {
+    public final OutputMessenger getOutput() {
         return output;
     }
 
-    public final void setOutput(OutputMessager output) {
+    public final void setOutput(OutputMessenger output) {
         if (null == input){
             throw new IllegalArgumentException("Did not provide an Output Messager.");
         }
